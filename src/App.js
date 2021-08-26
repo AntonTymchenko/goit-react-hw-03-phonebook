@@ -6,6 +6,8 @@ import { v4 as uuidv4 } from "uuid";
 import ContactsList from "./components/ContactsList/ContactsList";
 import Filter from "./components/Filter";
 
+import "./index.css";
+
 class App extends React.Component {
   state = {
     contacts: [],
@@ -83,7 +85,7 @@ class App extends React.Component {
             <Filter onFilterChange={this.onFilterChange} />
 
             {this.state.contacts.length === 0 ? (
-              <p>There are not any contacts...</p>
+              <p className="notifications">There are not any contacts...</p>
             ) : (
               <ContactsList
                 contacts={this.getResultOfContacts()}

@@ -1,0 +1,19 @@
+.inputFilter {
+  margin-bottom: 30px;
+  width: 200px;
+  height: 25px;
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #f6f6f6;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 10px 10px -10px;
+}
+.contactTitle {
+  text-align: center;
+}
+.filterLabel {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
